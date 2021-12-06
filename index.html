@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAN VGate &lt;=&gt; VINO Swap</title>
+    <script src="vite.js"></script>
+    <script src="vite-http.js"></script>
+    <script src="buffer.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="banano-icon.png" type="image/png">
+</head>
+<body>
+    <div class="center">
+        <div class="margin-100"></div>
+        <h1>Swap your old <span class="vgate">VGate</span> BANs for the new <span class=vino>VINO</span> BANs</h1>
+        <div class="margin-50"></div>
+        <div class="margin-50"></div>
+        <h1>
+            Fees: <span id="fee-info">Loading...</span>
+        </h1>
+        <div class="margin-50"></div>
+        <div class="separate">
+            <div class="center">
+                <h2>To get <span class=vino>VINO</span> BANs</h2>
+                <h3>From <span class="vgate">VGate</span> BANs</h3>
+                <div>Please send BAN-<span class="vgate">000</span></div>
+                <div class="margin-20"></div>
+                <img src="./vgatetovino.png" alt="" draggable="false" class="qrcode">
+                <div class="margin-20"></div>
+                <div>
+                    Max swap: <span id="vgatetovino-max">Loading...</span>
+                </div>
+            </div>
+            <div class="center">
+                <h2>To get <span class="vgate">VGate</span> BANs</h2>
+                <h3>From <span class=vino>VINO</span> BANs</h3>
+                <div>Please send BAN-<span class=vino>001</span></div>
+                <div class="margin-20"></div>
+                <img src="./vinotovgate.png" alt="" draggable="false" class="qrcode">
+                <div class="margin-20"></div>
+                <div>
+                    Max swap: <span id="vinotovgate-max">Loading...</span>
+                </div>
+            </div>
+        </div>
+        <h1>Or</h1>
+        <div>
+            <h2>Send to this smart contract</h2>
+            <p id="address" class="monospace">Loading...</p>
+        </div>
+        <div class="margin-100"></div>
+        <h5>If there's a problem with the swap, funds should be sent back automatically. The swap is done via a trustless smart contract.</h5>
+        <h5>In case of a problem, please contact me on <a href="https://discord.com/users/696481194443014174">Discord</a></h5>
+        <div class="margin-20"></div>
+    </div>
+</body>
+</html>
