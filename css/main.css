@@ -76,7 +76,7 @@ body {
  * links - (_document-setup)
  * ------------------------------------------------------------------- */
 a, a:visited {
-  color: #07617d;
+  color: #000000;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -332,7 +332,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #07617d;
+  background: #000000;
   position: absolute;
   left: -17px;
   top: 11px;
@@ -341,7 +341,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: #07617d;
+  color: #000000;
 }
 
 dd {
@@ -998,7 +998,7 @@ input::-moz-focus-inner {
   color: #252525;
 }
 .stats-tabs li a:hover {
-  color: #07617d;
+  color: #000000;
 }
 .stats-tabs li a em {
   display: block;
@@ -1786,13 +1786,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   max-width: 850px;
 }
 #about span {
-  color: #07617d;
+  color: #000000;
 }
 #about h3 {
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.8rem;
   line-height: 1.667;
-  color: #07617d;
+  color: #000000;
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: relative;
